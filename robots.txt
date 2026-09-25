@@ -1,0 +1,35 @@
+# robots.txt for Gunaseelan Portfolio Website
+# Base URL: https://gunaseelan.wuaze.com/guna/
+# Optimized for Search Engines (SEO), Answer Engines (AEO), and Generative AI Search (GEO)
+
+User-agent: *
+Allow: /
+
+# Search Engine Crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Generative AI & Answer Engine Crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+# Sitemap Index
+Sitemap: https://gunaseelan.wuaze.com/guna/sitemap.xml
